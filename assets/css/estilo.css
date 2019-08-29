@@ -2,7 +2,7 @@
 *{
     padding: 0; margin:0;
     box-sizing: border-box;
-
+    font-family: Roboto;
 }
 
 .container{
@@ -12,8 +12,9 @@
 
 .header{
     background-color: #117425;
+    font-size: 18px;
     
-
+  
 }
 
     .header__title{
@@ -30,3 +31,27 @@
         font-size: 36px;
         display: block;
  }
+ 
+ .navbar{
+    background: #00420C;
+    
+ }
+ .menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width:600px){
+    .menu{
+      flex-direction: row;
+    }
+  }
+.item__menu > a{
+    padding: 10px;
+    text-decoration: none;
+    color: #F2F2F2;
+    display: block;
+
+    
+    }
+    
